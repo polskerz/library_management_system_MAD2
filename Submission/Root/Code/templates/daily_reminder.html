@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Reminder</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: auto;
+            background: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .email-header {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        .email-footer {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #555555;
+        }
+        .btn-custom {
+            background-color: #007bff;
+            color: #ffffff;
+            border-radius: 4px;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="email-header">
+            <h1>Daily Reminder from Codexify</h1>
+        </div>
+        <div class="container py-4">
+            <p>Hello, {{ username }}</p>
+            <p>This is a friendly reminder to visit Codexify today. We have new books and resources that you might find interesting.</p>
+            <p>Don't miss out on the latest content!</p>
+            <a href="http://127.0.0.1:5000/#/" class="btn btn-custom">Visit Codexify</a>
+        </div>
+        <div class="email-footer">
+            <p>If you have any questions, feel free to contact us at <a href="mailto:support@codexify.com">support@codexify.com</a>.</p>
+            <p>&copy; 2024 Codexify. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>

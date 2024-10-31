@@ -1,0 +1,11 @@
+Request ID,Book Title,Book Author,Issued Date,Due Date,Return Date,Status
+1,The Hobbit,J.R.R. Tolkien,"Tue, 06 Aug, 2024, 07:26:00 PM","Tue, 06 Aug, 2024, 07:26:10 PM","Tue, 06 Aug, 2024, 07:26:10 PM",Revoked
+2,Neuromancer,William Gibson,"Tue, 06 Aug, 2024, 07:26:58 PM","Tue, 06 Aug, 2024, 07:27:08 PM","Tue, 06 Aug, 2024, 07:27:10 PM",Revoked
+3,Neuromancer,William Gibson,"Tue, 06 Aug, 2024, 07:27:40 PM","Tue, 06 Aug, 2024, 07:27:50 PM","Tue, 06 Aug, 2024, 07:27:44 PM",Active
+5,The Diary of a Young Girl,Anne Frank,"Tue, 06 Aug, 2024, 08:36:57 PM","Tue, 13 Aug, 2024, 08:36:57 PM","Thu, 08 Aug, 2024, 10:42:21 PM",Active
+6,Harry Potter and the Sorcerer's Stone,J.K. Rowling,"Thu, 08 Aug, 2024, 10:43:29 PM","Thu, 15 Aug, 2024, 10:43:29 PM",N/A,Active
+7,Long Walk to Freedom,Nelson Mandela,"Fri, 09 Aug, 2024, 06:23:46 PM","Fri, 16 Aug, 2024, 06:23:46 PM","Fri, 09 Aug, 2024, 06:24:00 PM",Active
+8,The Diary of a Young Girl,Anne Frank,"Fri, 09 Aug, 2024, 06:29:30 PM","Fri, 16 Aug, 2024, 06:29:30 PM","Fri, 09 Aug, 2024, 06:29:38 PM",Active
+9,The Diary of a Young Girl,Anne Frank,"Fri, 09 Aug, 2024, 06:35:37 PM","Fri, 16 Aug, 2024, 06:35:37 PM","Fri, 09 Aug, 2024, 06:35:52 PM",Active
+10,Neuromancer,William Gibson,"Fri, 09 Aug, 2024, 06:44:44 PM","Fri, 16 Aug, 2024, 06:44:44 PM","Fri, 09 Aug, 2024, 06:44:59 PM",Active
+11,The Diary of a Young Girl,Anne Frank,"Fri, 09 Aug, 2024, 06:47:24 PM","Fri, 16 Aug, 2024, 06:47:24 PM","Fri, 09 Aug, 2024, 06:47:35 PM",Active

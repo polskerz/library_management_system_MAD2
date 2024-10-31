@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Reminder</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: auto;
+            background: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .email-header {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        .email-footer {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #555555;
+        }
+        .btn-custom {
+            background-color: #007bff;
+            color: #ffffff;
+            border-radius: 4px;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="email-header">
+            <h1>Admin Monthly Report</h1>
+        </div>
+        <div class="container py-4">
+            <p>Hello, {{ username }}</p>
+            <p>Please find the monthly report attached as 'admin_monthly_report/csv'</p>
+            <div class="spacer" style="height : 20px;"></div>
+            <h3>Admin Statistics</h3>
+            <h4>User and Admin Count</h4>
+            <p>Users: {{ user_count }}</p>
+            <p>Admins: {{ admin_count }}</p>
+            
+            <h4>Requests over last 30 days</h4>
+            <p>Issued Requests: {{ issued_count }}</p>
+            <p>Returned Requests: {{ returned_count }}</p>
+            <p>Revoked Requests: {{ revoked_count }}</p>
+            
+            <p>Best regards,<br>The Codexify Team</p>
+        </div>
+        <div class="email-footer">
+            <p>If you have any questions, feel free to contact us at <a href="mailto:support@codexify.com">support@codexify.com</a>.</p>
+            <p>&copy; 2024 Codexify. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
